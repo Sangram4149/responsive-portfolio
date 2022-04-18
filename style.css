@@ -1,0 +1,163 @@
+*{
+    padding: 0%; margin: 0%; box-sizing: border-box; font-family: sans-serif;
+}
+body{
+    background-color: rgb(41, 39, 37);
+}
+header{
+    width: 100%;
+    height: 100vh;
+
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 0px 80px;
+    position: absolute;
+    z-index: 1;
+}
+.logo{
+    font-size: 35px;
+    letter-spacing: 3px;
+    color: white;
+}
+.menu a {
+    text-decoration: none;
+    color: white;
+    padding: 20px 30px;
+    font-size: 20px;
+}
+.circle1{
+    width: 500px;
+    height: 500px;
+    background: rgba(75, 221, 221, 0.877);
+    clip-path: circle(90% at 0% 0%);
+}
+.h-text{
+    position: absolute;
+    top: 25%;
+    left: 6%;
+    color: white;
+    z-index: 1;
+
+}
+.h-text h1{
+    font-size: 2em;
+    color: black;
+}
+.h-text h2{
+    font-size: 2.5em;
+    letter-spacing: 3px;
+}
+.r-img img{
+    position:absolute;
+    right: 70px;
+    top: 10%;
+    width: 800px
+}
+.watermark1{
+    position: absolute;
+    bottom: 5%;
+    right: 13%;
+    letter-spacing: 30px;
+    font-size: 8.5em;
+    color: rgba(255, 255, 255, 0.103);
+
+}
+#about{
+    padding: 50px 100px ;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    color: white;
+}
+.circle2{
+    width: 400px;
+    height: 400px;
+    background: rgba(75, 221, 221, 0.877);
+    border-radius: 70% 30% 23% 77% / 67% 52% 48% 33% ;
+    position: absolute;
+    top: 13%;
+    right: 10%;
+}
+.about-text{
+    text-align: right;
+    color: white;
+    max-width: 600px;
+    position: absolute;
+    top: 22%;
+    right: 15%;
+    z-index: 1;
+}
+.about-text h1{
+    color: black;
+}
+.about-text h2{
+    font-size: 4em;
+    margin-bottom: 5%;
+}
+#ab-img{
+    width: 600px;
+    height: 750px;
+    bottom: -10%;
+    position: absolute;
+    z-index: 1;
+}
+
+
+
+
+#work{
+    padding: 0px 100px;
+    width: 100%;
+    height: 100vh;
+    background: rgba(75, 221, 221, 0.877);
+
+}
+
+.cards{
+    padding-top: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    text-align: center;
+}
+.card-box{
+    flex-basis: 20%;
+    background: rgba(29, 28, 28, 0.459);
+    color: white;
+    padding: 20px;
+    cursor: pointer;
+    box-shadow: 2px 3px 10px black;
+}
+.card-box h2{
+    font-size: 25px;
+    color: black;
+    padding-bottom: 10px;
+}
+.card-box i{
+    padding: 20px;
+    font-size: 20px;
+    background: rgba(233, 220, 227, 0.575);
+    color: black;
+    margin-bottom: 20px;
+    border-radius: 70% 30% 23% 77% / 67% 52% 48% 33% ;
+}
+
+
+
+
+
+
+
+
+    
+
+
+
+
+ 
